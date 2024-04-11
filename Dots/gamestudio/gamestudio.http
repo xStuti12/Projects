@@ -1,0 +1,30 @@
+POST http://localhost:8080/api/score
+Content-Type: application/json
+
+{
+  "game": "dots",
+  "player": "stuti",
+  "points": "100",
+  "playedOn": "2023-04-04T12:40:33"
+}
+
+###
+POST http://localhost:8080/api/comment
+Content-Type: application/json
+
+{
+"game": "dots",
+"player": "stuti",
+"comment": "test",
+"commentedOn": "2023-04-04T12:40:33"
+}
+###
+POST http://localhost:8080/api/rating
+Content-Type: application/json
+
+{
+"game": "dots",
+"player": "stuti",
+"rating": "4",
+"ratedOn": "2023-04-04T12:40:33"
+}

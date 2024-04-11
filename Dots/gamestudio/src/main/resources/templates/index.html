@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/template.html}">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+
+<main layout:fragment="content">
+    <!--<ol>
+        <li><a href="/dots/new">Continue as guest</a></li>
+    </ol>-->
+    <!--/*@thymesVar id="userController" type="sk.tuke.gamestudio.server.controller.UserController"*/-->
+    <h1 class = "main-nadpis">Welcome to Dots</h1>
+
+    <div class = "login-container">
+    <span th:if="not ${@userController.logged}" class = "texts">
+            <h1 class="nadpis">Login</h1>
+            <form action="/login" method="post">
+                Login:<input type="text" name="login"><br/>
+                Password:<input type="password" name="passwd"><br/>
+                <input type="submit" value="Login"/>
+            </form>
+        </span>
+    </div>
+    <div class = "register-container">
+        <span th:if="not ${@userController.logged}" class = "texts">
+            <h1 class="nadpis">Register</h1>
+            <form action="/registerpage" method="post">
+                Login:<input type="text" name="login"><br/>
+                Password:<input type="password" name="passwd"><br/>
+                <input type="submit" value="Register"/>
+            </form>
+        </span>
+    </div>
+    <form action="/dots/new" method="GET" class="button">
+        <button type="submit" class="btn">Continue as guest</button>
+    </form>
+</main>
+
+</html>

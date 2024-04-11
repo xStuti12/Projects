@@ -1,0 +1,249 @@
+/* Styles for the whole page */
+body {
+    background: linear-gradient(to bottom, #4056a1, #8f61c8);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the game board */
+table {
+    border-collapse: collapse;
+    background: black;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.sc {
+    border: 1px solid;
+    color: darkgrey;
+}
+
+.com {
+    border: 1px solid;
+    color: darkgrey;
+}
+
+/* Styles for the scores and comments */
+.table_s {
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+.sc {
+    padding: 5px;
+}
+
+.splayer {
+    font-weight: bold;
+}
+
+.comment {
+    width: auto;
+    table-layout: fixed;
+    border: 1px solid;
+}
+
+.com {
+    padding: 5px;
+    width: auto;
+    word-wrap: break-word;
+}
+
+/* Styles for the ratings */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background: linear-gradient(to top, #4056a1, #8f61c8);
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: deepskyblue;
+}
+
+.column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-container .button {
+    margin: 0;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.nadpis {
+    text-align: center;
+    color: lightblue;
+}
+
+.author {
+    margin-top: 0px;
+    text-align: center;
+    font-size: medium;
+    color: lightblue;
+}
+
+.container {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 10px;
+}
+
+.rating-num {
+    color: black;
+    text-align: center;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    color: black;
+}
+
+.comment-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: lightblue;
+}
+
+h2 {
+    color: lightblue;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 915px) {
+    /* Adjust the layout for smaller screens */
+    .column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center-content {
+        margin-bottom: 10px;
+    }
+
+    .table_s,
+    .comment,
+    .comment-form,
+    .column {
+        margin-bottom: 10px;
+    }
+
+    .top-right {
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+
+    /* New styles for responsiveness */
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .column {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment-form,
+    .comment-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alert {
+        text-align: center;
+    }
+}

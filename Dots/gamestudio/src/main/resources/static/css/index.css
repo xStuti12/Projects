@@ -1,0 +1,102 @@
+/* Styles for the whole page */
+body {
+    background: linear-gradient(to bottom, #4056a1, #8f61c8);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+span{
+    alignment: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: deepskyblue;
+}
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: deepskyblue;
+}
+.texts{
+    font-size: large;
+    color: lightblue;
+    text-align: center;
+}
+.login-container{
+    background: black;
+    padding: 20px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    margin: 10px;
+}
+.nadpis{
+    text-align: center;
+    font-size: large;
+}
+.register-container{
+    background: black;
+    padding: 20px;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    margin: 10px;
+}
+.nadpis{
+    text-align: center;
+    font-size: large;
+}
+.main-nadpis{
+    text-align: center;
+    color: lightblue;
+}
+/* Responsive Styles */
+@media only screen and (max-width: 915px) {
+    form {
+        align-items: center;
+    }
+}
