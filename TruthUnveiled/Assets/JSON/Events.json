@@ -1,0 +1,118 @@
+{
+    "events": {
+        "positive": [
+            {
+                "eventText": "You had a wonderful night's sleep. You feel refreshed and energized for the day ahead.",
+                "eventEffectText": "You feel like you can be more productive today. Your action points have been increased.",
+                "eventEffect": "AP +",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You had a restful night's sleep. You feel like you are on top of the world",
+                "eventEffectText": "You wake up feeling refreshed and energized. Your action points have been increased.",
+                "eventEffect": "AP ++",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You had a pleasant dream. You start the day with a positive mindset.",
+                "eventEffectText": "Your action points have been increased.",
+                "eventEffect": "AP +",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You woke up feeling incredibly refreshed and ready to conquer the day.",
+                "eventEffectText": "You feel like you can accomplish anything today. Your action points have been increased.",
+                "eventEffect": "AP ++",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You had a deep and restful night's sleep, leaving you feeling rejuvenated.",
+                "eventEffectText": "You start the day with a clear mind and a positive attitude. Your action points have been increased.",
+                "eventEffect": "AP +",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You fell asleep imediately as you felt satisfied with yesterdays accomplishments, waking up feeling completely revitalized.",
+                "eventEffectText": "Your action points have been increased due to your well-rested state.",
+                "eventEffect": "AP ++",
+                "soundEffect": ""
+            }
+        ],
+        "negative": [
+            {
+                "eventText": "You woke up in the middle of the night to the sound of glass shaterring. Somebody threw a brick through your window.",
+                "eventEffectText": "You feel exhausted and can't concentrate. Your action points have been decreased.",
+                "eventEffect": "AP --",
+                "soundEffect": "glass"
+            },
+            {
+                "eventText": "You had a nightmare. You wake up feeling anxious and exhausted.",
+                "eventEffectText": "Your action points have been decreased.",
+                "eventEffect": "AP -",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You had trouble falling asleep and went to sleep very late.",
+                "eventEffectText": "You feel groggy and tired in the morning. Your action points have been decreased.",
+                "eventEffect": "AP -",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You were awoken by a loud thunderstorm in the middle of the night, leaving you feeling restless.",
+                "eventEffectText": "You feel fatigued and find it difficult to focus. Your action points have been decreased.",
+                "eventEffect": "AP --",
+                "soundEffect": "thunder"
+            },
+            {
+                "eventText": "You experienced recurring nightmares throughout the night, leaving you feeling anxious and drained.",
+                "eventEffectText": "Your action points have been decreased due to the unsettling nature of your dreams.",
+                "eventEffect": "AP --",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You tossed and turned all night, unable to find a comfortable position to sleep.",
+                "eventEffectText": "You wake up feeling exhausted and sluggish. Your action points have been decreased.",
+                "eventEffect": "AP -",
+                "soundEffect": ""
+            }
+        ],
+        "nothing": [
+            {
+                "eventText": "The night was uneventfull, you slept as you usually do.",
+                "eventEffectText": "There is a lot to do today and you feel ready to work hard.",
+                "eventEffect": "",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You woke up briefly in the middle of the night because you heard strange noises.",
+                "eventEffectText": "Although your sleep was interrupted, you still feel reasonably rested.",
+                "eventEffect": "",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "The night passed without incident, and you slept peacefully.",
+                "eventEffectText": "You feel well-rested and ready to tackle the day's challenges.",
+                "eventEffect": "",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You briefly woke up in the middle of the night to use the restroom, but quickly fell back asleep.",
+                "eventEffectText": "Despite the interruption, you wake up feeling reasonably refreshed.",
+                "eventEffect": "",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You had a normal night's sleep with no significant disruptions.",
+                "eventEffectText": "You wake up feeling neither particularly tired nor refreshed.",
+                "eventEffect": "",
+                "soundEffect": ""
+            },
+            {
+                "eventText": "You slept through the night without waking up once.",
+                "eventEffectText": "You feel adequately rested and ready to start the day.",
+                "eventEffect": "",
+                "soundEffect": ""
+            }
+        ]
+    }
+}

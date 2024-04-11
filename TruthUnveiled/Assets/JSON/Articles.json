@@ -1,0 +1,136 @@
+{
+    "articles": [
+        {
+            "title": "Slovakia is a company",
+            "publisher": "ZjemAjVlek",
+            "category": "politics",
+            "difficulty": 4
+        },
+        {
+            "title": "Elections rigged",
+            "publisher": "ZjemAjVlek",
+            "category": "politics",
+            "difficulty": 8
+        },
+        {
+            "title": "New King is reptilian",
+            "publisher": "ZjemAjVlek",
+            "category": "politics",
+            "difficulty": 3
+        },
+        {
+            "title": "C is memory safe",
+            "publisher": "Info Peace",
+            "category": "technology",
+            "difficulty": 6
+        },
+        {
+            "title": "Js best typed lang",
+            "publisher": "Info Peace",
+            "category": "technology",
+            "difficulty": 4
+        },
+        {
+            "title": "Don't get vaccinated",
+            "publisher": "ProtiPrudu",
+            "category": "medicine",
+            "difficulty": 6
+        },
+        {
+            "title": "Earth is flat",
+            "publisher": "ProtiPrudu",
+            "category": "enviromental",
+            "difficulty": 3
+        },
+        {
+            "title": "Euro doesn't exist",
+            "publisher": "AntiWorld",
+            "category": "economics",
+            "difficulty": 3
+        },
+        {
+            "title": "Global warming: Fake",
+            "publisher": "AntiWorld",
+            "category": "enviromental",
+            "difficulty": 7
+        },
+        {
+            "title": "5G kills brains cells",
+            "publisher": "waternet",
+            "category": "technology",
+            "difficulty": 8
+        },
+        {
+            "title": "Chemtrails !!!",
+            "publisher": "PeoplesCar",
+            "category": "enviromental",
+            "difficulty": 5
+        },
+        {
+            "title": "AI Job Killer",
+            "publisher": "waternet",
+            "category": "technology",
+            "difficulty": 6
+        },
+        {
+            "title": "Renewable energy myth",
+            "publisher": "Coal inc.",
+            "category": "enviromental",
+            "difficulty": 5
+        },
+        {
+            "title": "Moon landing is fake",
+            "publisher": "SpaceY",
+            "category": "technology",
+            "difficulty": 6 
+        },
+        {
+            "title": "Pigeons are drones",
+            "publisher": "NWOOO",
+            "category": "politics",
+            "difficulty": 3
+        },
+        {
+            "title": "Sahara sand kills",
+            "publisher": "PeterStatue",
+            "category": "enviromental",
+            "difficulty": 4
+        },
+        {
+            "title": "Elites rule the world",
+            "publisher": "NWOOO",
+            "category": "politics",
+            "difficulty": 8
+        },
+        {
+            "title": "Vaccines cause autism",
+            "publisher": "Magda",
+            "category": "medicine",
+            "difficulty": 6
+        },
+        {
+            "title": "Protest paid by west",
+            "publisher": "DirectionSD",
+            "category": "politics",
+            "difficulty": 6
+        },
+        {
+            "title": "Stephen won elections",
+            "publisher": "whoasked",
+            "category": "politics",
+            "difficulty": 3
+        },
+        {
+            "title": "Bleach cures baldness",
+            "publisher": "DocBeech",
+            "category": "medicine",
+            "difficulty": 4
+        },
+        {
+            "title": "Traffic light: useless",
+            "publisher": "ArmyCaptain",
+            "category": "politics",
+            "difficulty": 1
+        }
+    ]
+}
