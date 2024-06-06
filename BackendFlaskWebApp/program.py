@@ -1,9 +1,7 @@
 import psycopg2
 import pandas as pd
 from flask import Flask, request, jsonify
-print("Start")
 
-# Database connection settings
 conn = psycopg2.connect(
     dbname='dvdRental',
     user='postgres',
@@ -11,9 +9,7 @@ conn = psycopg2.connect(
     host='localhost',
     port=5433
 )
-print("connection established")
 
-# Flask app setup
 app = Flask(__name__)
 
 # CRUD Operations
@@ -110,7 +106,6 @@ def remove_record(film_id):
     except Exception as e:
         return jsonify({'status': 'error', 'message': str(e)}), 400
 
-print("im just about to start")
 # Run Flask app
 if __name__ == '__main__':
     print("Starting Flask application...")
