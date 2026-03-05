@@ -1,0 +1,23 @@
+{
+    "resourcePickedTitle": "Našiel si {resourceName}",
+    "resourcePickedTake": "Zobrať",
+    "resourcePickedDestroy": "Zahodiť",
+    "resourceRarity": "Vzácnosť: ",
+    "noStonesPicked": "Nemáš ešte žiadne kamene :(",
+    "noStonesFoundFilter": "Nemáš ešte žiadne {rarity} kamene",
+    "noResourcesPicked": "Nemáš ešte žiadne suroviny :(",
+    "noResourcesFoundFilter": "Nemáš ešte žiadne {rarity} suroviny",
+    "backpackTabStones": "Kamene",
+    "backpackTabResources": "Suroviny",
+    "permissionNotGivenMessage": "Pre správne fungovanie aplikácie musíš povoliť prístup k polohe",
+    "permissionNotGivenOkButton": "Okej",
+    "permissionDontAskAgainMessage": "Musíš povoliť prístup k polohe cez nastavenia",
+    "editNameDialogHeader": "Zadaj nové meno",
+    "saveButton": "Uložiť",
+    "editNameError": "Meno nemôže byť prázdne",
+    "editProfilePictureTitle": "Vyber si profilový obrázok",
+    "editProfileNoRocksPicked": "Nemáš ešte žiadne kamene ",
+    "editoProfilePictureInfo": "Nové obrázky získaváš tým, že vytváraš nové kamene",
+    "favoriteRocksTitle": "Obľúbené kamene",
+    "noFavoriteRocks": "Nemáš žiadne obľubené kamene"
+}
